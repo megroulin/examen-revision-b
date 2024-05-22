@@ -7,6 +7,12 @@
   font-size: 24px;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #f1faee;
+  color: #1d3557;
 }
 
 .star {
@@ -14,6 +20,22 @@
   margin-bottom: 20px;
   font-size: 48px;
   cursor: pointer;
+}
+
+.emoji-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+}
+
+.emoji {
+  font-size: 5em;
+  transition: transform 0.5s ease;
+}
+
+.emoji:hover {
+  transform: rotate(-180deg);
 }
 
 .article {
@@ -29,4 +51,9 @@
   margin-bottom: 12px;
   font-size: 24px;
   transition: transform 0.5s;
+  transition: font-size 0.3s ease;
+}
+
+.article-title:hover {
+  font-size: 34px;
 }
