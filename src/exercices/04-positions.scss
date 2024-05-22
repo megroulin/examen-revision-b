@@ -12,8 +12,9 @@
   width: 30px;
   height: 30px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   border-radius: 15px;
   background: #6c584c;
   color: #fff;
